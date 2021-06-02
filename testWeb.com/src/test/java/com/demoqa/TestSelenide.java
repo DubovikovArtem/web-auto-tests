@@ -10,6 +10,6 @@ public class TestSelenide {
     public void testSeleinideFirst() {
         Configuration.holdBrowserOpen = true;
         open("https://demoqa.com");
-        $(By.name(""));
+        $(By.name("commit"));
     }
 }
