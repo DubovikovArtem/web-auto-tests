@@ -1,3 +1,5 @@
+package com.demoqa;
+
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
