@@ -1,3 +1,5 @@
+package selenide;
+
 import com.codeborne.selenide.Configuration;
 import org.openqa.selenium.By;
 import org.testng.annotations.*;
@@ -7,7 +9,8 @@ public class TestSelenide {
     @Test
     public void testSeleinideFirst() {
         Configuration.holdBrowserOpen = true;
-        open("https://demoqa.com");
-        $(By.name(""));
+//        open("https://demoqa.com");
+        open("https://the-internet.herokuapp.com");
+//        $(By.name(""));
     }
 }
