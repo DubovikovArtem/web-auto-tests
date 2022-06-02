@@ -1,0 +1,9 @@
+*.txt
+*.log
+*.csv
+*.iml
+*.bat
+.idea/
+target/
+build/
+out/
